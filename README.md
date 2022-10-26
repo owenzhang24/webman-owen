@@ -1,6 +1,9 @@
 
 # workerman开发脚手架
 webman-owen
+- Gitee链接:
+  https://gitee.com/owenzhang24/owen-workerman
+
 
 # 项目内容
 
@@ -16,8 +19,8 @@ webman-owen
 - aes加密,
 - 监控系统TransferStatistics,
 - 多应用nginx配置
-- Gitee链接:
-  https://gitee.com/owenzhang24/owen-workerman
+- 后期添加-ElasticSearch，RabbitMQ
+
 
 ## 感谢
 
@@ -29,21 +32,22 @@ webman-owen
 ## 服务器
 
 1. php8.1
-2. redis6
+2. redis6.0
 3. mysql8.0
 4. mangodb5.0
 5. env  https://cloud.tencent.com/developer/article/2060142
 6. 内核优化 https://cloud.tencent.com/developer/article/2060138
+7. 多项目nginx配置  https://my.oschina.net/owenzhang24/blog/5585429
 
 ## 本项目采用php8.1版本，cli模式运行
 
-请使用 php81 start.php (restart | start | stop) 命令进行控制 守护模式 -d
+请使用 php start.php (restart | start | stop) 命令进行控制 守护模式 -d
 
-php81 start.php start       #启动服务 测试环境用
+php start.php start       #启动服务 测试环境用
 
-php81 start.php start -d    #启动服务 守护模式 正式环境用
+php start.php start -d    #启动服务 守护模式 正式环境用
 
-php81 start.php reload      #重载代码
+php start.php reload      #重载代码
 
 ## nginx
 ```

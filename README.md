@@ -7,7 +7,7 @@ webman-owen
 
 # 项目内容
 
-- app端时间随机数签名,后台jwt-token验证,
+- app端时间随机数签名,后台jwt-token验证,接口限流
 - 登录/支付(苹果,微信,支付宝,QQ,手机短信,手机一键登录,微博),
 - redis,redis-queue,
 - topthink参数验证,
@@ -38,6 +38,9 @@ webman-owen
 5. env  https://cloud.tencent.com/developer/article/2060142
 6. 内核优化 https://cloud.tencent.com/developer/article/2060138
 7. 多项目nginx配置  https://my.oschina.net/owenzhang24/blog/5585429
+8. 本地window开发运行php start.php start即可，无需配置nginx，另外解压vendor.zip文件即可
+9. composer update注意，阿里云包（alibabacloud，alipaysdk，aliyuncs等等）可能对PHP81不兼容，那就复制vendor.zip文件的对应旧包
+
 
 ## 本项目采用php8.1版本，cli模式运行
 
@@ -48,6 +51,7 @@ php start.php start       #启动服务 测试环境用
 php start.php start -d    #启动服务 守护模式 正式环境用
 
 php start.php reload      #重载代码
+
 
 ## nginx
 ```

@@ -2,7 +2,7 @@
 # workerman开发脚手架
 webman-owen
 - Gitee链接:
-  https://gitee.com/owenzhang24/owen-workerman
+  https://gitee.com/owenzhang24/webman-owen
 
 
 # 项目内容

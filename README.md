@@ -85,15 +85,18 @@
 
 请使用 php start.php (restart | start | stop) 命令进行控制 守护模式 -d
 
-php start.php stop #停止服务 测试环境用
+php start.php stop       #停止服务 测试环境用
 
-php start.php start #启动服务 测试环境用
+php start.php start      #启动服务 测试环境用
 
-php start.php restart #重启服务 测试环境用
+php start.php restart    #重启服务 测试环境用
 
-php start.php reload #重载代码
+php start.php reload     #重载代码
 
-php start.php start -d #启动服务 守护模式 正式环境用
+php start.php start -d   #启动服务 守护模式 正式环境用
+
+php start.php restart -d #重启服务 守护模式 正式环境用
+
 
 # Buy me a cup of coffee :)
 
